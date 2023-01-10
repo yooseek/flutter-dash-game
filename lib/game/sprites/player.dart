@@ -73,7 +73,6 @@ class Player extends SpriteGroupComponent<PlayerState>
     _velocity.y += _gravity;
 
     position += _velocity * dt;
-    debugPrint('[[[Character position]]]  ---------- $_velocity');
 
     super.update(dt);
   }
